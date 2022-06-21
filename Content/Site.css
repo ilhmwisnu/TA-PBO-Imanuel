@@ -1,6 +1,16 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    background-image : url("../Asse")
+    background-image : url('../Assets/bg.jpg');
+    /*object-fit : cover;*/
+    /*background-repeat : no-repeat;*/
+    background-size :cover;
+    padding: 0;
+    color :white;
+
+}
+
+.cardd {
+    background-color: rgba(95, 154, 167, 0.4);
 }
 
 /* Wrapping element */
@@ -29,8 +39,12 @@ textarea {
     }
 }
 
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
+
+.navbar-toggle:hover, navbar-toggle:focus {
     background-color: #777;
     border-color: #fff
+}
+
+.navbar{
+    color : white;
 }
