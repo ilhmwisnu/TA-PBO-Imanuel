@@ -151,7 +151,9 @@
     <Content Include="About.aspx" />
     <Content Include="Assets\bg.jpg" />
     <Content Include="Assets\logo.png" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Assets\logo2.png" />
+    <Content Include="Ubah.aspx" />
+    <Content Include="Tambah.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -309,12 +311,19 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="Ubah.aspx.cs">
+      <DependentUpon>Ubah.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="Ubah.aspx.designer.cs">
+      <DependentUpon>Ubah.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tambah.aspx.cs">
+      <DependentUpon>Tambah.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tambah.aspx.designer.cs">
+      <DependentUpon>Tambah.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

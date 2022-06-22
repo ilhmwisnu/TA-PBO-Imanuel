@@ -1,12 +1,21 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    background-image : url('../Assets/bg.jpg');
+    background-image: url('../Assets/bg.jpg');
+    background-attachment: fixed;
     /*object-fit : cover;*/
     /*background-repeat : no-repeat;*/
-    background-size :cover;
+    background-size: cover;
     padding: 0;
-    color :white;
+    color: white;
+}
 
+.rounded{
+
+    border-radius : 15px !important ;
+}
+
+.table-bg {
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .cardd {
