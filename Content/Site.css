@@ -9,17 +9,23 @@ body {
     color: white;
 }
 
-.rounded{
-
-    border-radius : 15px !important ;
+.rounded {
+    border-radius: 15px !important;
 }
 
 .table-bg {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
+.form-control {
+    background-color: rgba(0,0, 0, 0.25) !important;
+    color: white !important;
+}
+
+
+
 .cardd {
-    background-color: rgba(95, 154, 167, 0.4);
+    background-color: rgba(95, 154, 167, 0.5);
 }
 
 /* Wrapping element */
@@ -30,11 +36,7 @@ body {
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
+
 
 
 /* Responsive: Portrait tablets and up */
@@ -54,6 +56,10 @@ textarea {
     border-color: #fff
 }
 
-.navbar{
-    color : white;
+.navbar {
+    color: white;
+}
+
+.full-width {
+    min-width: 100%;
 }
